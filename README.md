@@ -1,7 +1,7 @@
 # My Linux Environment
 
 To begin:
-* Edit `git-config.sh` to set your name and email correctly
+* Edit `2-git-config.sh` to set your name and email correctly
 * Run all the scripts in the main directory
 * Copy `opt/` to `/opt` (requires elevated privileges)
 * Copy all files in `home` to `~`
