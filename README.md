@@ -52,3 +52,10 @@ sudo ln -s /opt/scripts/reload-sound /usr/bin/reload-sound
 ```bash
 sudo apt install texlive texlive-latex-extra
 ```
+
+## Cron Jobs
+
+* [logrotate](https://linux.die.net/man/8/logrotate)
+* [battery-notifier](https://github.com/jleung51/scripts/tree/master/battery_notifier) (5%, 20%, 50%)
+  * Frequency: 5 minutes
+  * `*/5 * * * * /path/to/battery_notifier.py >> ~/log/cron/battery_notifier.log`
