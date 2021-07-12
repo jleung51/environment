@@ -44,8 +44,15 @@ sudo ln -s /opt/scripts/reload-sound /usr/bin/reload-sound
 
 ## Programs
 
+### General
+
+* [Google Chrome](https://www.google.com/intl/en_ca/chrome/)
 * [Dropbox](https://www.dropbox.com/install)
+
+### Development
+
 * [Android Studio](https://developer.android.com/studio)
+* [Visual Studio Code](https://code.visualstudio.com/download)
 
 ## LaTeX
 
