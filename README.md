@@ -1,22 +1,10 @@
 # My Linux Environment
 
-To begin:
-* Edit `2-git-config.sh` to set your name and email correctly
+Instructions:
+* Edit `./2-git-config.sh` to set your name and email correctly
 * Run all the scripts in the main directory
-* Copy `opt/` to `/opt` (requires elevated privileges)
-* Copy all files in `home` to `~`
 
 Follow any additional applicable instructions below.
-
-## Enabling /opt/scripts
-
-```bash
-sudo chmod +x /opt/scripts/weather
-sudo ln -s /opt/scripts/weather /usr/bin/weather
-
-sudo chmod +x /opt/scripts/reload-sound
-sudo ln -s /opt/scripts/reload-sound /usr/bin/reload-sound
-```
 
 ## Manual Setup
 
