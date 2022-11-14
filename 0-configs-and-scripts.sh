@@ -3,5 +3,6 @@
 set -e
 set -x
 
-sudo cp ./opt /opt
-cp ./home/* ~/
+sudo cp -a ./opt/. /opt
+cp -a ./home/. /home/jleung/
+
