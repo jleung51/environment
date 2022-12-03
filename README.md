@@ -41,6 +41,7 @@ Follow any additional applicable instructions below.
 
 * [Android Studio](https://developer.android.com/studio)
 * [Visual Studio Code](https://code.visualstudio.com/download)
+  * [Theme: Atom One Dark](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
 
 ## LaTeX
 
