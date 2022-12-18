@@ -9,3 +9,6 @@ sudo ln -s /opt/scripts/reload-sound /usr/bin/reload-sound
 sudo chmod +x /opt/scripts/weather
 sudo ln -s /opt/scripts/weather /usr/bin/weather
 
+sudo chmod +x /opt/scripts/update
+sudo ln -s /opt/scripts/update /usr/bin/update
+
