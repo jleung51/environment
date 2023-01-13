@@ -4,6 +4,7 @@
 set -e
 set -x
 
-git config --global user.name "Jeffrey Leung"
-git config --global user.email "jleung513@gmail.com"
+git config --global user.name "YOUR_NAME_HERE"
+git config --global user.email "YOUR_EMAIL_HERE@gmail.com"
 git config --global core.editor "vim"
+git config --global pager.branch false
