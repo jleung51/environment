@@ -1,10 +1,8 @@
-# My Linux Environment
+# Jeff's Unix/Linux Environment
 
-Instructions:
-* Edit `./2-git-config.sh` to set your name and email correctly
-* Run all the scripts in the main directory
+Run all the scripts in the main directory.
 
-Follow any additional applicable instructions below.
+See [jleung51](https://github.com/jleung51/dotfiles) for additional configuration.
 
 ## Manual Setup
 
@@ -34,14 +32,17 @@ Follow any additional applicable instructions below.
 
 ### General
 
-* [Google Chrome](https://www.google.com/intl/en_ca/chrome/)
-* [Dropbox](https://www.dropbox.com/install)
+* [Ninite](https://ninite.com):
+  * Google Chrome
+  * Firefox
+  * Zoom
+  * Discord
+  * VLC
+  * Spotify
+  * GIMP
+  * SumatraPDF
+  * [Visual Studio Code](https://code.visualstudio.com/download)
 
-### Development
-
-* [Android Studio](https://developer.android.com/studio)
-* [Visual Studio Code](https://code.visualstudio.com/download)
-  * [Theme: Atom One Dark](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
 
 ## LaTeX
 
