@@ -6,26 +6,12 @@ See [jleung51](https://github.com/jleung51/dotfiles) for additional configuratio
 
 ## Manual Setup
 
-* guake:
-  * **General**:
-    * Do not restore previous session
-    * Disable popup notifications on startup
-    * Start Guake at Login
-  * **Main Window**:
-    * Stay on top
-    * Don't show tab bar
-    * Start fullscreen
-  * **Shell**:
-    * Default interpreter: `/usr/bin/tmux`
-  * **Appearance**:
-    * Font: [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
-    * Theme: Solarized Dark Higher Contrast
-    * Transparency: 20%
+* guake: Load saved preferenecs:
+```bash
+guake --restore-preferences=guake.cfg
+```
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-  * Theme: awesomepanda
-  * Plugins: web-search
 * [libinput-gestures](https://github.com/bulletmark/libinput-gestures)
-  * Configuration included in `home/.config`
 * [z](https://github.com/rupa/z)
 
 ## Programs
