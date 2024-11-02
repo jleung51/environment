@@ -6,6 +6,7 @@ See [jleung51](https://github.com/jleung51/dotfiles) for additional configuratio
 
 ## Manual Setup
 
+* tpm: Run the instructions in the [README](https://github.com/tmux-plugins/tpm/blob/master/README.md)
 * guake: Load saved preferenecs:
 ```bash
 guake --restore-preferences=guake.cfg
