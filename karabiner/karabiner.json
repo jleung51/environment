@@ -1,0 +1,79 @@
+{
+    "profiles": [
+        {
+            "complex_modifications": {
+                "rules": [
+                    {
+                        "manipulators": [
+                            {
+                                "description": "Change caps_lock to command+control+option+shift.",
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_shift",
+                                        "modifiers": ["left_command", "left_control", "left_option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Open apps",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": { "mandatory": ["left_command", "left_control", "left_option", "left_shift"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Google Chrome.app'" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "m",
+                                    "modifiers": { "mandatory": ["left_command", "left_control", "left_option", "left_shift"] }
+                                },
+                                "to": [{ "shell_command": "open -a Spotify.app" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "d",
+                                    "modifiers": { "mandatory": ["left_command", "left_control", "left_option", "left_shift"] }
+                                },
+                                "to": [{ "shell_command": "open -a Discord.app" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": { "mandatory": ["left_command", "left_control", "left_option", "left_shift"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Visual Studio Code.app'" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "t",
+                                    "modifiers": { "mandatory": ["left_command", "left_control", "left_option", "left_shift"] }
+                                },
+                                "to": [{ "shell_command": "open -a iTerm.app" }],
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name": "Default profile",
+            "selected": true,
+            "virtual_hid_keyboard": {
+                "country_code": 0,
+                "keyboard_type_v2": "ansi"
+            }
+        }
+    ]
+}
